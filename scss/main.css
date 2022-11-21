@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1200px;
+}
+
+.hero {
+  background-image: url("../2_oy_exam/images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 240px;
+}
+
+.hero .container .logo {
+  background-image: url(../2-oy_exam/images/logo_bac.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero .container .logo .text {
+  padding-left: 100px;
+}
+
+.hero .container .logo a {
+  padding-right: 10px;
+}
+
+.hero .container .logo h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 72px;
+  /* or 100% */
+  text-align: center;
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */

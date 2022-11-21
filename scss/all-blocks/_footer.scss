@@ -1,0 +1,163 @@
+.footer{
+    padding: 56px 0;
+    background-color: #34495E;
+    width: 100% ;
+    &__fut{
+        display: flex;
+        gap: 20px;
+    }
+
+    &__list{
+        max-width: 70%;
+    }
+
+    &__item{
+        margin-bottom: 32px;
+        .flex{
+            display: flex;
+            padding-left: 0;
+        }
+        .flex_wrap{
+            display: block;
+            padding-left: 0;
+        }
+        h4{
+            font-weight: 800;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-bottom: 9px;
+        }
+        ul li a{
+            color: white;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+            color: #ebeae9;
+            
+            
+        }
+    }
+    &__media{
+        
+        h4{
+            font-weight: 800;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-bottom: 24px;
+        }
+        form{
+            margin-bottom: 40px;
+        }
+        input{
+            background-color: #253544;
+            border-radius: 2px;
+            padding: 15px 12px;
+        }
+    }
+    &__icon{
+        display: flex;
+        gap: 18px;
+        padding-bottom: 490px;
+    }
+    &__btn{
+        background-color:#5199FF;
+        border-radius: 2px;
+        padding: 15px 12px;
+        font-weight: 600;
+        color: white;
+        border: none;
+    }
+}
+
+@media (max-width: 1024px){
+    .footer{
+        &__fut{
+            display: block;
+            gap: 20px;
+        }
+        &__media{
+            display: flex;
+            gap: 70px;
+
+            &__one,
+            &__two{
+                display: block;
+                &__logo{
+                    display: none;
+    
+                }
+            }
+
+            &__logo{
+                display: none;
+
+            }
+
+        }
+
+        &__icon{
+            display: flex;
+            gap: 18px;
+            padding-bottom: 0;
+        }
+
+    }
+
+   
+
+
+
+
+
+    }
+
+@media (max-width: 775px){
+    .footer{
+        overflow: hidden;
+        &__fut{
+            display:block;
+        }
+
+        &__media{
+            display: block;
+            
+           
+
+            &__one,
+            &__two{
+                display: block;
+                &__logo{
+                    display: none;
+    
+                }
+            }
+
+           
+
+        }
+        &__item{
+            .flex{
+                display: block;
+                padding-left: 0;
+                 li{
+                    display: none;
+                 }
+            }
+            .flex_wrap{
+                display: block;
+                padding-left: 0;
+                li{
+                    display: none;
+                 }
+            }
+
+        }
+
+    }
+}

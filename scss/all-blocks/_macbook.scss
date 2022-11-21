@@ -1,0 +1,218 @@
+.macbooks {
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+
+
+
+    .macbook {
+        &__text {
+            width: 635px;
+            max-width: 100%;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 40px;
+            text-align: center;
+            color: #333333;
+            margin: 0 auto;
+
+        }
+
+        &__sub {
+            width: 967px;
+            max-width: 100%;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: #333333;
+            margin: 0 auto;
+            padding-top: 25px;
+        }
+
+        &__parag {
+            width: 627px;
+            max-width: 100%;
+            height: 40px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #333333;
+            margin: 0 auto;
+            padding-top: 8px;
+        }
+
+        &__card {
+            display: flex;
+            align-items: center;
+
+            max-width: 100%;
+            padding-top: 64px;
+
+            &-none {
+                width: 400px;
+                height: 350px;
+            }
+
+            & :nth-child(3) {
+                // display: none;
+                width: 650px;
+                height: 469px;
+            }
+
+
+        }
+
+        &__before {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            padding-top: 16px;
+            padding-bottom: 60px;
+            margin: 0 auto;
+
+            & div {
+                width: 8px;
+                height: 8px;
+                border: 1px solid #2B2B2B;
+                border-radius: 50%;
+                cursor: pointer;
+
+                &:hover {
+                    background: #EF4744;
+                    border: none;
+                }
+            }
+
+            & :nth-child(1) {
+                background: white;
+                border: 1px solid #2B2B2B;
+            }
+        }
+
+        &__basic {
+            & img {
+                display: none;
+            }
+        }
+
+
+    }
+
+
+
+    @media (max-width:1024px) {
+        .macbook {
+            &__text {
+                max-width: 100%;
+                font-size: 24px;
+                line-height: 28px;
+                text-align: center;
+            }
+
+            &__sub {
+                max-width: 100%;
+                font-size: 16px;
+                line-height: 20px;
+                padding-top: 14px;
+            }
+
+            &__parag {
+                width: 570px;
+                max-width: 100%;
+                height: 41px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                padding-bottom: 10px;
+            }
+
+            &__card {
+                display: flex;
+                justify-content: space-around;
+                padding: 0 20px 0 20px;
+
+                &-none {
+                    display: none;
+                }
+
+                & :nth-child(3) {
+                    width: 467px;
+                    height: 360px;
+                }
+
+            }
+        }
+    }
+
+
+    @media (max-width:570px) {
+        .macbook {
+            &__text {
+                width: 300px;
+                max-width: 100%;
+                height: 48px;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                padding-top: 32px;
+            }
+
+            &__sub {
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                padding-top: 8px;
+            }
+
+            &__parag {
+                width: 290px;
+                height: 60px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+            &__basic {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding-top: 17px;
+                padding-bottom: 34px;
+
+                & img {
+                    display: inline-block;
+                }
+            }
+
+            &__before {
+                display: flex;
+                gap: 16px;
+                justify-content: center;
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+
+            &__card {
+                padding-top: 32px;
+
+                &-bang {
+                    display: none;
+                }
+
+                & :nth-child(3) {
+
+                    width: 350px;
+                    height: 178px;
+                }
+            }
+        }
+    }
+}

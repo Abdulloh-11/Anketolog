@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+}
+
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+@mixin weight_700 () {
+  background-color: #2D9CDB;
+
+
+}

@@ -1,0 +1,18 @@
+{
+    "version": 3,
+    "mappings": "AIAA,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,WAAW,EAAE,wBAAwB;EACrC,gBAAgB,EAAE,KAAK;CACxB;;AELD,AAAA,UAAU,CAAC;EACT,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,MAAM;EACf,SAAS,EAAE,MAAM;CAClB;;ACJD,AAAA,KAAK,CAAC;EACJ,gBAAgB,EAAE,qCAAqC;EACvD,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,MAAM;EAC3B,eAAe,EAAE,KAAK;EACtB,cAAc,EAAE,KAAK;CAiCtB;;AAtCD,AAQI,KARC,CAOH,UAAU,CACR,KAAK,CAAC;EACJ,gBAAgB,EAAE,qCAAqC;EACvD,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;CAuB7B;;AAlCL,AAaM,KAbD,CAOH,UAAU,CACR,KAAK,CAKH,KAAK,CAAC;EACJ,YAAY,EAAE,KAAK;CACpB;;AAfP,AAiBM,KAjBD,CAOH,UAAU,CACR,KAAK,CASH,CAAC,CAAC;EACA,aAAa,EAAE,IAAI;CACpB;;AAnBP,AAqBM,KArBD,CAOH,UAAU,CACR,KAAK,CAaH,EAAE,CAAC;EACD,WAAW,EAAE,YAAY;EACzB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,aAAa;EAEb,UAAU,EAAE,MAAM;EAElB,KAAK,EAAE,GAAG;CACX",
+    "sources": [
+        "main.scss",
+        "_variables.scss",
+        "_normalize.scss",
+        "_fonts.scss",
+        "_general.scss",
+        "all-blocks/_all-block.scss",
+        "all-blocks/_container.scss",
+        "all-blocks/_header.scss",
+        "all-blocks/_main.scss",
+        "all-blocks/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
